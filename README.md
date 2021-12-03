@@ -88,7 +88,7 @@ git commit -m "first commit"
 到此为止已经提交到了本地仓库
 接下来我们把本地仓库和远程仓库联系起来
 git remote rm origin 
-git remote add origin git@github.com:814971663@qq.com/Gittest.git
+git remote add origin git@github.com:xuming1986/git_github.git
 
 添加后，远程库的名字就是origin，这是Git默认的叫法，也可以改成别的，但是origin这个名字一看就知道是远程库
 下一步，就可以把本地库的所有内容推送到远程库上
