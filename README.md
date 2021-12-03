@@ -114,6 +114,8 @@ git push origin master
 我们在本地使用git clone直接把远程仓库克隆下来。
 git clone git@github.com:xuming1986/git_github.git
 
+看到这里大家就懂了，不仅仅是自己的仓库可以克隆，也可以克隆其他用户的公开仓库。
 
-
+例如现在随便找一个安卓阅读app的仓库
+git clone git@github.com:smuyyh/BookReader.git
 
