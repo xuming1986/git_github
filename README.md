@@ -94,10 +94,25 @@ git remote add origin git@github.com:xuming1986/git_github.git
 下一步，就可以把本地库的所有内容推送到远程库上
 git push -u origin master
 
+由于远程库是空的，我们第一次推送master分支时，加上了-u参数，Git不但会把本地的master分支内容推送的远程新的master分支，还会把本地的master分支和远程的master分支关联起来，在以后的推送或者拉取时就可以简化命令。
 
+此后git add git commit-m之后 就可以使用
+git push origin master
 
+就可以把自己的代码上传到远程仓库了。
 
+方法二：
 
+使用Git clone直接从远程仓库克隆下来
+
+前面我们讲了先有本地库，后有远程库的时候，如何关联远程库。
+
+现在，假设我们从零开发，那么最好的方式是先创建远程库，然后，从远程库克隆。
+
+首先，登陆GitHub，创建一个新的仓库，git_github
+
+我们在本地使用git clone直接把远程仓库克隆下来。
+git clone git@github.com:xuming1986/git_github.git
 
 
 
